@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}" >
+    
+    <Button
+         android:id="@+id/menu_resume"
+         style="@style/Menu_Tabs"
+         android:layout_above="@+id/menu_main_menu"
+         android:layout_centerHorizontal="true"
+         android:text="@string/menu_resume" />
+    
+    <Button
+         android:id="@+id/menu_main_menu"
+         style="@style/Menu_Tabs"
+         android:layout_above="@+id/menu_how_to_play"
+         android:layout_centerHorizontal="true"
+         android:text="@string/menu_home" />
+    
+    <Button
+        android:id="@+id/menu_how_to_play"
+        style="@style/Menu_Tabs"       
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/menu_how_to_play" />
+    
+    <Button
+        android:id="@+id/menu_options"
+        style="@style/Menu_Tabs"
+        android:layout_below="@+id/menu_how_to_play"
+        android:layout_centerHorizontal="true"
+        android:text="@string/menu_options" />
+    
+     <Button
+         android:id="@+id/menu_about"
+         style="@style/Menu_Tabs"
+         android:layout_below="@+id/menu_options"
+         android:layout_centerHorizontal="true"
+         android:text="@string/menu_about" />
+
+</RelativeLayout>

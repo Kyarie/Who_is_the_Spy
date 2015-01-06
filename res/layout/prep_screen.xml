@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/prepscreen_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="5"
+    android:layout_gravity="center" >
+	
+    <RelativeLayout     
+	    android:layout_width="wrap_content"
+	    android:layout_height="0dp"
+	    android:layout_weight="2"		    	    
+	     >
+	     
+	     <Button
+	        android:id="@+id/prep_cancel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft = "true"
+	        android:layout_marginLeft ="10dp"
+	        android:layout_marginTop ="30dp"
+	        android:text="@string/cancel" />
+	
+	    <Button
+	        android:id="@+id/prep_start"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight = "true"
+	        android:layout_alignParentTop = "true"
+	        android:layout_marginRight="10dp"
+	        android:layout_marginTop="10dp"
+	        android:background="@drawable/start_button" />
+		    
+	</RelativeLayout>
+    
+    
+	<ScrollView 
+		  android:id="@+id/prep_scrollview"
+		  android:layout_width="fill_parent"
+	      android:layout_height="0dp"
+	      android:layout_weight="3">
+	
+		<RelativeLayout     
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft = "5dp"
+		    android:layout_marginRight = "5dp"		    	    
+		     >
+		
+		    <!--  <TextView
+		        android:id="@+id/prep_players"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/prep_players" />
+		    
+			    <EditText
+			        android:id="@+id/number_of_players"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentLeft="true"
+			        android:layout_below="@+id/prep_players"
+			        android:ems="10"
+			        android:inputType="number" >
+			
+			        <requestFocus />
+			    </EditText> -->
+		    
+		    <TextView
+		        android:id="@+id/player_name"		       
+		        style="@style/PrepScreen_text"
+		        android:text="@string/player_name"
+		        android:layout_centerHorizontal="true"  />           
+		   
+		    <LinearLayout
+		        android:id="@+id/prep_names_list"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        android:layout_below="@+id/player_name" >
+	    
+			    <EditText
+			        android:id="@+id/player_name1"		        
+			        style="@style/PrepScreen_edittext"
+			        android:inputType="textPersonName" />
+			    
+			    <EditText
+			        android:id="@+id/player_name2"		        
+			        style="@style/PrepScreen_edittext"
+			        android:inputType="textPersonName"	/>
+			    
+			    <EditText
+			        android:id="@+id/player_name3"
+			        style="@style/PrepScreen_edittext"
+			        android:inputType="textPersonName" />
+			    	    
+			</LinearLayout>		
+			
+		    <Button
+		        android:id="@+id/prep_plus"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_toRightOf="@+id/prep_minus"   
+		        android:layout_below="@+id/prep_names_list"
+		        android:text="@string/prep_plus" />
+		
+		    <Button
+		        android:id="@+id/prep_minus"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_toRightOf="@+id/player_name"        
+		        android:layout_below="@+id/prep_names_list"
+		        android:text="@string/prep_minus" />
+		    	    
+		    <TextView
+		        android:id="@+id/prep_blank"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/prep_plus"
+		        style="@style/PrepScreen_text"
+		        android:text="@string/prep_blank"
+		        android:layout_toLeftOf="@+id/prep_plus" />
+		    	
+		    	<ToggleButton
+			        android:id="@+id/blank_toggle"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_toRightOf="@+id/prep_blank"
+			        android:layout_below="@+id/prep_plus"			        
+			        android:onClick="onToggleClicked" />
+		    
+		    <TextView
+		        android:id="@+id/prep_category"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/blank_toggle"
+		        style="@style/PrepScreen_text"
+		        android:text="@string/prep_category"
+		        android:layout_toLeftOf="@+id/prep_plus"  />
+		    
+			    <Spinner
+			        android:id="@+id/category_spinner"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_toRightOf="@+id/prep_category"
+			        android:layout_alignTop="@+id/prep_category"
+			        android:background="#000000"
+			        android:entries="@array/word_category"
+			        android:prompt="@string/category_spinner" />
+		    		    
+		</RelativeLayout>
+	</ScrollView>
+	
+</LinearLayout>

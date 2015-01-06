@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="school_words ">
+        <item>pen,pencil</item>
+        <item>teacher,supervisor</item>
+        <item>math,algebra</item>
+        <item>university,college</item>
+        <item>procrastination,facebook</item>
+        <item>detention,punishment</item>
+        <item>clubs,party</item>
+        <item>academic,applied</item>
+        <item>exam,test</item>
+        <item>fail,zero</item>
+        <item>extracurricular activities,volunteering</item>
+        <item>homework,questions</item>
+        <item>paraphrase,plagiarize</item>
+        <item>William Shakespeare,Samuel Beckett</item>
+        <item>George Orwell,Margret Atwood</item>
+        <item>Hamlet,Macbeth</item>
+        <item>Romeo and Juliet,A Midsummer Night\&#39;s Dream</item>
+        <item>King Lear,Julius Caesar</item>
+        <item>playground,soccer field</item>
+        <item>chalk,projector</item>
+        <item>taking notes,sleeping</item>
+        <item>assignment,</item>
+        <item>percentage,grade</item>
+        <item>national athem, annoucement</item>
+        <item>assembly,gym</item>
+        <item>Dickinson,Blake</item>
+        <item>Leo Tolstoy,Vladmir Lenin</item>
+        <item>Friedrich Nietzsche,Martin Heidegger</item>
+        <item>World War I,World War II</item>
+        <item>Lincoln,Washington</item>
+        <item>Christopher Columbus,Zheng He</item>
+    </string-array>
+    <string-array name="entertainment_words ">
+        <item>movie,film</item>
+        <item>rock,pop</item>
+        <item>Tom Cruise,Leonardo DiCaprio</item>
+        <item>Frozen,Tangled</item>
+        <item>American football,rugby</item>
+        <item>Hawaii,California</item>
+        <item>Harry Potter,Hunger Games</item>
+        <item>Mozart,Beethoven</item>
+        <item>musical,theatre</item>
+        <item>Disney,Pixar</item>
+        <item>anime,cartoon</item>
+        <item>manga,comic</item>
+        <item>Titanic,Gone With the Wind</item>
+        <item>Les Miserables,Mary Poppins</item>
+        <item>Mickey Mouse,Duffy Duck</item>
+        <item>Mulan,Jasmine</item>
+        <item>Cinderella,Snow White</item>
+        <item>The Little Mermaid,Beauty and the Beast</item>
+        <item>Transformers,The Avengers</item>
+        <item>Star Wars,Star Trek</item>
+        <item>Twilight,Vampire Diary</item>
+        <item>Batman,Iron Man</item>
+        <item>Spider Man,The Hulk</item>
+        <item>Justin Bieber,Miley Cyrus</item>
+        <item>Lady Gaga,Katy Perry</item>
+        <item>Lord of the Rings,Game of Thrones</item>
+        <item>Gandalf,Dumbledore</item>
+    </string-array>
+    <string-array name="science_words ">
+        <item>physics,chemistry</item>
+        <item>star,sun</item>
+        <item>Eistein,Hawking</item>
+        <item>hypothesis,theory</item>
+        <item>Fahrenheit,Celsius</item>
+        <item>buoyancy,gravity</item>
+        <item>motion,acceleration</item>
+        <item>Newton,Pascal</item>
+        <item>lab report,experiment</item>
+        <item>thermometer,calorimeter</item>
+        <item>copper,iron</item>
+        <item>nucleus,nucleons</item>
+        <item>proton,neutron</item>
+        <item>DNA,protein</item>
+        <item>photosynthesis,cellular respiration</item>
+        <item>skin cell,blood cell</item>
+        <item>heart,lungs</item>
+        <item>artery,vein</item>
+        <item>carbon,soot</item>
+        <item>kinetic energy,chemical energy</item>
+        <item>gas,vapour</item>
+    </string-array>   
+    <string-array name="objects_words ">
+        <item>computer,laptop</item>
+        <item>house,apartment</item>
+        <item>mouse,keyboard</item>
+        <item>spoon,fork</item>
+        <item>clock,watch</item>
+        <item>money,wallet</item>
+        <item>cup,mug</item>
+        <item>pot,pan</item>
+        <item>window,door</item>
+        <item>chair,sofa</item>
+        <item>rainbow,colours</item>
+        <item>tornado,hurricane</item>
+        <item>sky,cloud</item>
+        <item>house,apartment</item>
+        <item>fries,chips</item>
+        <item>pizza,pancake</item>
+        <item>McDonald\&#39;s,KFC</item>
+        <item>chicken,bacon</item>
+        <item>broccoli,beans</item>
+        <item>plastic,paper</item>
+        <item>uniform,clothes</item>
+        <item>dress,skirt</item>
+        <item>suit,tie</item>
+        <item>candy,lollipop</item>
+    </string-array>    
+</resources>

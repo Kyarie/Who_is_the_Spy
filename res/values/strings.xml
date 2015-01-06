@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Icebreaker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- Main Menu -->
+    <string name="app_title">Who is the spy?</string>
+    <string name="start_button">Start</string>
+    <string name="howtoplay_button">How To Play</string>
+    <string name="options_button">Options</string>
+    <string name="about_button">About</string>
+    <string name="title_activity_prep_screen">PrepScreen</string>
+    <string name="title_activity_options">Options</string>
+    <string name="title_activity_about">About</string>
+
+    <!-- PrepScren -->
+    <string name="prep_players">Number of players:</string>
+    <string name="prep_category">Category:</string>
+
+    <string-array name="word_category">
+        <item>Random</item>
+        <item>School</item>
+        <item>Entertainment</item>
+        <item>Science</item>
+        <item>Objects</item>
+        <!-- <item>Custom List</item> -->
+    </string-array>
+
+    <string name="category_spinner">Choose Category</string>
+    <string name="prep_blank">Blank Card:</string>
+    <string name="player_name">Player names:</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_game_screen">GameScreen</string>
+    <string name="prep_plus">+</string>
+    <string name="prep_minus">-</string>
+
+    <!-- GameScreen -->
+    <string name="confirm_button">Confirm</string>
+    <string name="restart_button">Restart</string>
+    <string name="forgot_button">Forgot</string>
+    <string name="title_activity_win_screen">WinScreen</string>
+    <string name="instructions">Click on your name and \n remember your word</string>
+    <string name="popup_continue">Click anywhere to continue</string>
+
+    <!-- WinScreen -->
+    <string name="home_button">Home</string>
+    <string name="continue_button">Next Round</string>
+    <string name="title_activity_how_to_play">HowToPlay</string>
+
+    <!-- How To Play -->
+    <string name="htp_title">How To Play \n</string>
+    <string name="how_to_play_goal">Goal: Find the spy </string>
+    <string name="how_to_play_players">Number of participants: 3&#8211;20 people \n</string>
+    <string name="how_to_play">Game Play: Each participant receives a word or phrase that unknown to the others. 
+	    There will be one participant whose word is different from everyone else and is thus the spy.
+	    Everyone else is a civilian.
+	    In each round, everyone takes turn describing their word or phrase.
+	    After each person have finished their description, the group votes on who the spy is.
+	    If the spy is not caught, the selected person is out. \n</string>
+    <string name="how_to_play_winner">Winner: The spy wins if he&#47;she is not voted out when there is only two people 
+	    remaining, the spy wins. If the spy is voted out, civilians win.\n</string>
+    <string name="how_to_play_blank">Blank Card: A blank card can be added into the game. 
+	    The participant with the blank card will try to match their description with others.
+	    For the civilians to win, the blank card and the spy must both be caught.</string>
+
+    <!-- Dialog -->
+    <string name="dialog_title">Exit?</string>
+    <string name="dialog_message">Click &#34;cancel&#34; to return to game.</string>
+    <string name="ok">Okay</string>
+
+    <!-- About -->
+    <string name="about_me">Created by: XueYing (Dora) Hu</string>
+
+    <!-- Menu -->
+    <string name="menu_resume">Resume</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_how_to_play">How To Play</string>
+    <string name="menu_options">Options</string>
+    <string name="menu_about">About</string>
+
+    <!-- Preferences -->
+    <string-array name="background_preference">
+        <item>Simple</item>
+        <item>Night</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="background_preference_values">
+        <item>Simple</item>
+        <item>Night</item>
+        <item>None</item>
+    </string-array>
+
+    <string name="title_activity_preference">PreferenceActivity</string>
+    <string name="title_activity_splash">Splash</string>
+
+</resources>

@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gamescreen_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="10" >
+	
+    <RelativeLayout
+        android:id="@+id/gamescreen_relative"
+        android:layout_width="fill_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="4"	 >
+        
+        <TextView
+	      android:id="@+id/instructions"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_centerHorizontal="true"
+	      android:textSize = "15sp"
+	      android:text="@string/instructions"
+	      style="@style/GameScreen_textview" />    
+                
+    </RelativeLayout>        
+    	    
+    <ScrollView
+	  android:id="@+id/game_scrollview"
+	  android:layout_width="fill_parent"
+	  android:layout_height="0dp"
+	  android:layout_gravity="center"
+	  android:layout_weight="5" >
+    
+	    <RelativeLayout
+	        android:id="@+id/names_layout"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="10dp" >
+	        
+	    </RelativeLayout>
+	    
+	</ScrollView> 
+	
+    <RelativeLayout
+        android:id="@+id/gamescreen_buttons"
+        android:layout_width="fill_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="1"	 >
+	    
+        <Button
+	        android:id="@+id/game_cancel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom = "true"
+	        android:layout_alignParentLeft = "true"
+	        android:layout_marginBottom = "10dp"
+	        android:text="@string/cancel" />
+        
+        <Button
+	        android:id="@+id/restart_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_toRightOf ="@+id/game_cancel"
+	        android:layout_marginBottom ="10dp"
+	        android:text="@string/restart_button" />
+        
+        <Button
+	        android:id="@+id/forgot_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_toRightOf ="@+id/restart_button"
+	        android:layout_marginBottom ="10dp"
+	        android:text="@string/forgot_button" />
+        
+        <Button
+	        android:id="@+id/confirm_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentRight = "true"
+	        android:layout_marginBottom = "10dp"
+	        android:text="@string/confirm_button" />        
+    
+        
+	</RelativeLayout>
+    
+</LinearLayout>
